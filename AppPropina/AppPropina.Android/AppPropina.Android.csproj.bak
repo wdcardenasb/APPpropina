@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{51607220-C186-4610-BE1A-8068A99E6EA6}</ProjectGuid>
+    <ProjectGuid>{8E9AED6B-3F7A-40C6-8297-A025B70D0087}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>AppPropina.Droid</RootNamespace>
@@ -81,7 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AppPropina\AppPropina.csproj">
-      <Project>{3A322FF7-87D7-4B91-9EE5-D80B9B88CABE}</Project>
+      <Project>{09798634-BAEE-4234-9F46-970BAD01B3E9}</Project>
       <Name>AppPropina</Name>
     </ProjectReference>
   </ItemGroup>

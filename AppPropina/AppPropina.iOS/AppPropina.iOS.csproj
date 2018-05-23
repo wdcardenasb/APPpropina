@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{26C10F9E-AB8A-4929-AAB4-0C296D4C706F}</ProjectGuid>
+    <ProjectGuid>{EFDA1019-557A-4349-9848-9A9DE572F61B}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>AppPropina.iOS</RootNamespace>
@@ -124,7 +124,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\AppPropina\AppPropina.csproj">
-      <Project>{3A322FF7-87D7-4B91-9EE5-D80B9B88CABE}</Project>
+      <Project>{09798634-BAEE-4234-9F46-970BAD01B3E9}</Project>
       <Name>AppPropina</Name>
     </ProjectReference>
   </ItemGroup>
