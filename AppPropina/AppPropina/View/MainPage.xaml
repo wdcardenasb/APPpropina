@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:AppPropina.ViewModel"
                xmlns:conver="clr-namespace:AppPropina.Converters"
-             x:Class="AppNumeroCuatro.View.MainPage">
+             x:Class="AppPropina.View.MainPage">
 
     <ContentPage.Resources>
         <ResourceDictionary>
