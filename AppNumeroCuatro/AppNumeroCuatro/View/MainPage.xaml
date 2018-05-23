@@ -1,46 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:AppPropina.ViewModel"
-               xmlns:conver="clr-namespace:AppPropina.Converters"
+             xmlns:local="clr-namespace:AppNumeroCuatro.ViewModel"
              x:Class="AppNumeroCuatro.View.MainPage">
 
     <ContentPage.Resources>
-        <ResourceDictionary>
-            <!--diccionario de recursos-->
+        <ResourceDictionary><!--diccionario de recursos-->
             <local:PropinaViewModel x:Key="propVM" />
-            <conver:DecimalConverter></conver:DecimalConverter>
         </ResourceDictionary>
-    </ContentPage.Resources>
+     </ContentPage.Resources>
     <ContentPage.Content>
-
-
+        
+        
     </ContentPage.Content>
-    <TableView  BindingContext="{Binding Source={StaticResource propVM }}" 
+        <TableView  BindingContext="{Binding Source={StaticResource propVM }}" 
                     Intent="Form" 
                     HasUnevenRows="True">
-        <TableSection  Title="Datos Generales">
+                <TableSection  Title="Datos Generales">
 
-            <EntryCell x:Name="entTotal"  
+                <EntryCell x:Name="entTotal"  
                            Placeholder="$0.0" 
                            Label="Total"
                            Text="{Binding PropinaModel.Total , Mode=TwoWay}"
                            >
-            </EntryCell>
-            <EntryCell x:Name="entPropina" 
+                </EntryCell>
+                <EntryCell x:Name="entPropina" 
                            Placeholder="$0.0" 
                            Label="Porcentaje Propina"
                            Text="{Binding PropinaModel.PorcentajePropina , Mode=TwoWay}"
                            >
-            </EntryCell>
-            <EntryCell x:Name="entPerdonas" 
+                </EntryCell>
+                <EntryCell x:Name="entPerdonas" 
                            Placeholder="$0"
                            Label="Personas"
                            Text="{Binding PropinaModel.Personas , Mode=TwoWay}"
                            >
-            </EntryCell>
-
-        </TableSection>
+                </EntryCell>
+                    
+            </TableSection>
         <TableSection  Title="Calcular" >
             <ViewCell>
                 <ViewCell.View>

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AppPropina.ViewModel
+namespace AppNumeroCuatro.ViewModel
 {
     using Model;
     using Xamarin.Forms;
@@ -11,8 +11,8 @@ namespace AppPropina.ViewModel
     {
 
         #region Propiedades
-        public Propina PropinaModel { get; set; }
-        public Command CalcularCommand { get; set; }
+          public Propina PropinaModel { get; set; }
+          public Command CalcularCommand { get; set; }
         #endregion
 
         #region Construtor
@@ -21,9 +21,10 @@ namespace AppPropina.ViewModel
         {
             PropinaModel = new Propina();
             CalcularCommand = new Command(Calcular);
-
+            
         }
-        
+
+
 
         #endregion
 
@@ -35,11 +36,11 @@ namespace AppPropina.ViewModel
             PropinaModel.TotalCuenta = PropinaModel.Total + PropinaModel.PropinaTotal;
             PropinaModel.PropinaPorPersona = PropinaModel.PropinaTotal / PropinaModel.Personas;
             PropinaModel.TotalPorPersona = PropinaModel.Total / PropinaModel.Personas;
-
+          
             // total propina ok ,
-            //total, 
-            //propina por persona ok,
-            //total por persona ok
+                //total, 
+                //propina por persona ok,
+                 //total por persona ok
         }
         #endregion
     }

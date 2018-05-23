@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using System.Text;
-
-namespace AppPropina.ViewModel
+﻿namespace AppNumeroCuatro.ViewModel
 {
-   public  class Notificable : INotifyPropertyChanged
+    using System.ComponentModel;
+    using System.Runtime.CompilerServices;
+    public class Notificable : INotifyPropertyChanged
     {
         #region Implementacion
         public event PropertyChangedEventHandler PropertyChanged;
@@ -17,4 +13,3 @@ namespace AppPropina.ViewModel
         #endregion
     }
 }
-

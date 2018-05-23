@@ -1,10 +1,10 @@
-﻿namespace AppPropina.Model
+﻿namespace AppNumeroCuatro.Model
 {
     using ViewModel;
     using System;
     using System.Collections.Generic;
     using System.Text;
-    public class Propina : Notificable
+    public class Propina:Notificable
     {
         #region atributos
         private double total;
@@ -143,8 +143,7 @@
                 OnPropertyChanged();
             }
         }
-
+        
         #endregion
     }
 }
-
